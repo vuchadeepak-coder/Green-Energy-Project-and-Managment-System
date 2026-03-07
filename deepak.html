@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Green Energy Project</title>
+<link rel="stylesheet" href="pro.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<!-- Login Page -->
+<div id="loginPage">
+<h2>Green Energy Management System</h2>
+<input type="text" placeholder="Username"><br>
+<input type="password" placeholder="Password"><br>
+<button onclick="login()">LOGIN</button>
+</div>
+
+<!-- Main Dashboard -->
+<div id="mainPage" style="display:none;">
+
+<h3>Welcome to Green Energy Dashboard</h3>
+
+<input type="text" id="city" placeholder="Search City">
+<button onclick="searchCity()">Search</button>
+
+<div class="buttons">
+<button onclick="showData('home')">Home</button>
+<button onclick="showData('carbon')">Carbon Tracking</button>
+<button onclick="showData('aqi')">AQI</button>
+<button onclick="showData('nav')">Navigation</button>
+<button onclick="showData('wind')">Wind Farm Monitoring</button>
+<button onclick="showData('energy')">Energy Production</button>
+<button onclick="showData('project')">Add Project</button>
+<button onclick="showData('history')">Historical Trends</button>
+<button onclick="showData('ozone')">Ozone (O₃)</button>
+<button onclick="showData('govt')">Steps Taken by Government</button>
+<button onclick="showData('historyGraph')">Previous History</button>
+<button onclick="logout()">Logout</button>
+</div>
+
+<div id="output"></div>
+
+</div>
+
+<script src="glb.js"></script>
+</body>
+</html>
