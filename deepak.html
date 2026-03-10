@@ -1,51 +1,104 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
+<!-- CO1: HTML Document Structure & Internet Fundamentals -->
+
 <html>
 <head>
+
 <title>Green Energy Project</title>
+<!-- CO1: Basic HTML elements -->
+
+<!-- Linking external CSS file -->
 <link rel="stylesheet" href="pro.css">
+<!-- CO1: Introductory CSS Styling -->
+
+<!-- Chart.js library for graphs -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<!-- CO4: JavaScript DOM & Data Visualization -->
+
 </head>
 
 <body>
 
-<!-- Login Page -->
+<!-- ================= LOGIN PAGE ================= -->
+<!-- CO2: HTML Forms & Input Elements -->
+
 <div id="loginPage">
+
 <h2>Green Energy Management System</h2>
+
+<!-- Username Input -->
 <input type="text" placeholder="Username"><br>
+
+<!-- Password Input -->
 <input type="password" placeholder="Password"><br>
+
+<!-- Login Button -->
 <button onclick="login()">LOGIN</button>
+
 </div>
 
-<!-- Main Dashboard -->
+
+<!-- ================= MAIN DASHBOARD ================= -->
+<!-- CO2: Semantic Page Content -->
+
 <div id="mainPage" style="display:none;">
 
 <h3>Welcome to Green Energy Dashboard</h3>
 
+<!-- City Search Input -->
 <input type="text" id="city" placeholder="Search City">
+
+<!-- Search Button -->
 <button onclick="searchCity()">Search</button>
 
+<!-- Navigation Buttons -->
+<!-- CO4: JavaScript Event Handling -->
+
 <div class="buttons">
+
 <button onclick="showData('dashboard')">Dashboard</button>
+
 <button onclick="showData('home')">Home</button>
+
 <button onclick="showData('carbon')">Carbon Tracking</button>
+
 <button onclick="showData('aqi')">AQI</button>
+
 <button onclick="showData('pollutedCities')">Top Polluted Cities</button>
+
 <button onclick="showData('nav')">Navigation</button>
+
 <button onclick="showData('wind')">Wind Farm Monitoring</button>
+
 <button onclick="showData('energy')">Energy Production</button>
+
 <button onclick="showData('project')">Add Project</button>
+
 <button onclick="showData('history')">Historical Trends</button>
+
 <button onclick="showData('ozone')">Ozone (O₃)</button>
+
 <button onclick="showData('govt')">Steps Taken by Government</button>
+
 <button onclick="showData('historyGraph')">Previous History</button>
+
 <button onclick="showData('aboutSection')">About Green Energy</button>
+
 <button onclick="logout()">Logout</button>
+
 </div>
+
+
+<!-- Dynamic Content Area -->
+<!-- CO4: DOM Manipulation -->
 
 <div id="output"></div>
 
 </div>
 
+<!-- External JavaScript File -->
 <script src="glb.js"></script>
+<!-- CO3 & CO4: JavaScript Programming & DOM -->
+
 </body>
 </html>
