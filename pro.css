@@ -1,23 +1,29 @@
-/* BODY BACKGROUND */
+/* ================= BODY BACKGROUND ================= */
+/* CO1: Introductory CSS Styling */
 
 body{
 margin:0;
 font-family:Arial, Helvetica, sans-serif;
 
+/* Gradient Background */
 background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+
 min-height:100vh;
 color:white;
 text-align:center;
 }
 
-/* TITLE */
+
+/* ================= TITLE ================= */
 
 h1{
 margin-top:20px;
 letter-spacing:1px;
 }
 
-/* SEARCH BAR */
+
+/* ================= SEARCH BAR ================= */
+/* CO2: Form Input Styling */
 
 input{
 padding:12px;
@@ -27,6 +33,10 @@ width:250px;
 font-size:15px;
 outline:none;
 }
+
+
+/* ================= BUTTON STYLE ================= */
+/* CO1: CSS Styling & Transitions */
 
 button{
 padding:12px 20px;
@@ -42,23 +52,30 @@ color:white;
 transition:all 0.3s ease;
 }
 
-/* BUTTON HOVER */
+
+/* ================= BUTTON HOVER EFFECT ================= */
+/* CO2: CSS Interactive Styling */
 
 button:hover{
 
 transform:translateY(-3px);
+
 box-shadow:0 8px 20px rgba(0,0,0,0.3);
 
 background:linear-gradient(45deg,#00e676,#1de9b6);
+
 }
 
-/* BUTTONS CONTAINER */
+
+/* ================= BUTTON CONTAINER ================= */
 
 .buttons{
 margin-top:20px;
 }
 
-/* OUTPUT BOX */
+
+/* ================= OUTPUT BOX ================= */
+/* CO2: Layout & Styling */
 
 #output{
 
@@ -78,7 +95,9 @@ min-height:200px;
 transition:all 0.3s ease;
 }
 
-/* DASHBOARD GRID */
+
+/* ================= DASHBOARD GRID ================= */
+/* CO2: CSS Grid Layout */
 
 .dashboard{
 
@@ -92,7 +111,8 @@ margin-top:20px;
 
 }
 
-/* CARDS */
+
+/* ================= DASHBOARD CARDS ================= */
 
 .card{
 
@@ -112,7 +132,8 @@ transition:all 0.3s ease;
 
 }
 
-/* CARD HOVER */
+
+/* ================= CARD HOVER EFFECT ================= */
 
 .card:hover{
 
@@ -124,7 +145,9 @@ cursor:pointer;
 
 }
 
-/* TABLE STYLE */
+
+/* ================= TABLE STYLING ================= */
+/* CO2: HTML Tables Styling */
 
 table{
 
@@ -144,6 +167,7 @@ overflow:hidden;
 
 }
 
+
 th{
 
 background:#00c853;
@@ -154,6 +178,7 @@ padding:12px;
 
 }
 
+
 td{
 
 padding:10px;
@@ -162,7 +187,8 @@ border-bottom:1px solid #ddd;
 
 }
 
-/* TABLE HOVER */
+
+/* ================= TABLE HOVER ================= */
 
 tr:hover{
 
@@ -170,7 +196,8 @@ background:#f1f1f1;
 
 }
 
-/* GOVERNMENT IMAGE */
+
+/* ================= GOVERNMENT IMAGE ================= */
 
 .govt-img{
 
@@ -185,6 +212,9 @@ box-shadow:0 5px 15px rgba(0,0,0,0.3);
 transition:0.3s;
 
 }
+
+
+/* ================= IMAGE HOVER ================= */
 
 .govt-img:hover{
 
